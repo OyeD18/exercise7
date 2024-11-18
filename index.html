@@ -3,18 +3,16 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercise 7: Typography</title>
-    
-    <!-- This recipe is taken from https://cooking.nytimes.com/recipes/1012494-spinach-tofu-and-sesame-stir-fry --> 
+    <title>Spinach, Tofu, and Sesame Stir-Fry</title>
     
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Merriweather:wght@300;700&family=Chewy&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre&family=Nixie+One&display=swap" rel="stylesheet">
     
     <style>
       /* Global Styles */
       body {
         background-color: #ffffe5; /* Light yellow background */
-        font-family: 'Roboto', sans-serif;
+        font-family: 'Nixie One', sans-serif;
         color: #000000; /* Black text */
         margin: 0;
         padding: 0;
@@ -24,7 +22,7 @@
       /* Container Styling */
       .container {
         width: 100%;
-        max-width: 1000px; /* Increased container width */
+        max-width: 1000px;
         margin: 40px auto;
         padding: 20px;
         background-color: #ffef1c; /* Light yellow-green background for the content */
@@ -33,16 +31,18 @@
 
       /* Title Styles */
       h1 {
-        font-family: 'Chewy', cursive;
-        font-size: 2.4rem; /* Reduced font size */
+        font-family: 'Edu AU VIC WA NT Pre', cursive;
+        font-size: 2.6rem;
         color: #000000; /* Black text */
         text-align: center;
       }
 
-      h3 {
-        font-size: 1.2rem; /* Reduced font size */
-        color: #000000; /* Black text */
-        margin-top: 20px;
+      /* Credits Text */
+      .credits {
+        font-size: 1rem;
+        margin-bottom: 20px;
+        color: #000000;
+        text-align: center;
       }
 
       /* Columns Layout */
@@ -64,8 +64,8 @@
 
       /* Ingredients Section */
       h2 {
-        font-family: 'Chewy', cursive;
-        font-size: 1.6rem; /* Reduced font size */
+        font-family: 'Edu AU VIC WA NT Pre', cursive;
+        font-size: 1.8rem;
         color: #000000; /* Black text */
         margin-bottom: 10px;
       }
@@ -76,9 +76,9 @@
       }
 
       li {
-        font-size: 1rem; /* Reduced font size */
-        margin-bottom: 6px; /* Reduced margin for better spacing */
-        color: #000000; /* Black text */
+        font-size: 1rem;
+        margin-bottom: 6px;
+        color: #000000;
       }
 
       /* Image Styling */
@@ -89,21 +89,20 @@
       }
 
       /* Preparation Steps */
+      h3 {
+        font-family: 'Edu AU VIC WA NT Pre', cursive;
+        font-size: 1.4rem;
+        margin-top: 20px;
+        color: #000000; /* Black text */
+      }
+
       p {
-        font-size: 1rem; /* Reduced font size */
+        font-size: 1rem;
         margin-bottom: 15px;
         color: #000000; /* Black text */
       }
 
       strong {
-        color: #000000; /* Black text */
-      }
-
-      /* Tip Box Styling */
-      .tip {
-        font-size: 1rem; /* Reduced font size */
-        margin-top: 20px;
-        font-style: italic;
         color: #000000; /* Black text */
       }
     </style>
@@ -115,7 +114,7 @@
         <!-- Left Column: Title, Credits, and Ingredients -->
         <div class="left-column">
           <h1>Spinach, Tofu, and Sesame Stir-Fry</h1>
-          <h3>By: Martha Rose Shulman | Yield: 3 Servings</h3>
+          <p class="credits">By: Martha Rose Shulman | Yield: 3 Servings</p>
 
           <h2>Ingredients</h2>
           <ul>
@@ -146,9 +145,8 @@
           <p>Using tongs, transfer the spinach and tofu mixture to a serving bowl, leaving the liquid behind in the pan or wok. Drizzle with the sesame oil, and add more soy sauce as desired. Serve with rice or other grains, or noodles. You may also use it as a filling for whole wheat pita bread.</p>
 
           <!-- Tip Section -->
-          <div class="tip">
-            <strong>Tip:</strong> Advance preparation: This is a last-minute preparation, but you can have your ingredients prepared well in advance.
-          </div>
+          <h3>Tip</h3>
+          <p>Advance preparation: This is a last-minute preparation, but you can have your ingredients prepared well in advance.</p>
         </div>
       </div>
     </div>
